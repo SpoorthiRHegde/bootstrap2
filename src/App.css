@@ -1,0 +1,111 @@
+/* App.css */
+body {
+  background-color: #103a64;
+}
+
+/* Header */
+.navbar {
+  background-color: #194677 !important;
+}
+
+.navbar-brand, .nav-link, .form-control, .btn-outline-success {
+  color: #210202 !important;
+}
+
+.navbar-brand:hover, .nav-link:hover, .btn-outline-success:hover {
+  color: #4b0a0a !important;
+}
+
+/* Footer */
+footer {
+  background-color: #07315b;
+  color: #450d0d;
+}
+
+footer a {
+  color: #430c0c;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+footer .text-center {
+  background-color: #2c2f33;
+  color: #2a0303;
+}
+
+/* Book Cards */
+.card {
+  width: 25rem;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-title, .card-text {
+  color: #343a40;
+}
+
+.card-body {
+  text-align: center;
+}
+
+/* BookCard.css */
+.book-card {
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+/* Header.css */
+.custom-navbar {
+  padding: 1rem 2rem;
+  background-color: #343a40;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.nav-link {
+  font-size: 1rem;
+  margin-right: 1rem;
+  color: #d4d4d4 !important;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+.form-inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-input {
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+}
+
+.search-button {
+  border-radius: 20px;
+  margin-left: 10px;
+}
